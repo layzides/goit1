@@ -18,8 +18,8 @@ main {
 }
 
 nav {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -34,7 +34,16 @@ li {
 
 ul {
   display: block;
-  width: 100%;
+}
+
+li a {
+  color: #626262;
+  text-decoration: none;
+}
+
+ul li:first-child > a {
+  color: #03a9f4;
+  font-weight: bold;
 }
 
 .block {
@@ -60,8 +69,17 @@ ul {
 .btn {
   padding: 20px 30px;
   font-family: "Playfair Display";
+  background-color: #ffffff;
+  color: #626262;
+  font-size: 20pt;
+  border-color: #cbcbcb;
+  border-width: 1px;
+  border-radius: 0px;
+  border-style: solid;
 }
 
 footer {
   text-align: center;
+  margin-top: 56px;
+  margin-bottom: 56px;
 }
